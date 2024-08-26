@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+      
+      .navbar {
+          height: 60px;
+          width: 100%;
+          background-color: black;
+          display: flex;
+          color: white;
+          align-items: center;
+justify-content: space-evenly;
+      }
+      .nav-logo {
+          height: 50px;
+          width: 155px;
+      }
+      .logo {
+          background-image: url("   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTisOgGmAi07EwnjowIqQSF6CYLdZsrDA0eVE5zQdZbOcyQeg5fZTeW00Y&s=10 ");
+          height: 100%;
+          width: 100%;
+          background-size: cover;
+      }
+      
+      .border {
+          border: 2px solid transparent;
+      }
+      
+      .border:hover {
+          border: 2px solid white;
+          
+      }
+      
+      
+      .add-icon {
+          display: flex ;
+          align-items: center;
+      }
+      .add-f {
+          color: white;
+          margin-left: 15px;
+      }
+      
+      
+      .add-s {
+          margin-left: 6px;
+      }
+      
+      
+      .nav-search {
+          display: flex;
+justify-content: space-evenly;
+          background-color: red;
+          height: 40px;
+      border-radius: 10px;
+          width: 610px;
+border: none;
+      }
+.nav-search:hover {
+border: 2px solid orange;
+}
+      
+      .search-inp {
+          width: 100%;
+font-size: 1.5rem;
+border: none;
+      }
+      
+      .search-sel {
+          background-color: #f3f3f3;
+          width: 50px;
+          text-align: center;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+      }
+
+    .search-icon {
+  width: 45px;
+
+display: flex;
+justify-content: center;
+
+align-items: center;
+background-color: orange;
+font-size: 1.5rem;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+.nav-f {
+font-size: 0.8rem;
+}
+
+.nav-s {
+font-size: 1rem;
+font-weight: 700;
+}
+
+.nav-cart {
+display: flex;
+
+}
+
+.cart-icon {
+
+font-size: 2rem;
+}
+
+.nav-panel {
+    height: 40px;
+    background-color: #222f3d;
+ color: white;
+    display: flex;
+align-items: center;
+
+}
+.nav-panel p {
+    display: inline-block ;
+margin-left: 39px;
+}
+
+.panel-all {
+margin-left: 20px;}
+
+
+
+
+.hero {
+background-image: url("https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg	");
+height: 400px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+
+.hero-para {
+background-color: white;
+padding: 10px;
+width: 95%;
+height: 40px;
+margin-bottom: 30px;
+text-align: center;
+font-size: 0.8rem;
+
+}
+.hero a {
+color: #007184;
+text-decoration: none;
+}
+  
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+background-color: #e2e7e6;
+flex-wrap: wrap;
+
+} 
+.box {
+    height: 400px;
+margin-top: 2rem;
+
+    width: 30%;
+
+    
+background-color: white;
+}
+
+.box-imgs img {
+    width: 200px;
+    height: 100px;
+}
+
+.box-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ margin-top: 3rem;
+gap: 0.5rem
+}
+
+.box h2 {
+text-align: center;
+margin-top: 1rem;
+
+}
+
+
+.box  .link{
+margin-top:4rem;
+color: #007184;
+margin-left:1rem;
+
+}
+#sm {
+margin-top:3rem;
+
+}
+#sm1 {
+margin-top:3rem;
+
+}
+
+.box-img {
+
+background-image: url("		https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v5._SY608_CB573698005_.jpg	"		);
+background-size: cover;
+height: 100px;
+width: 109px;
+
+}
+
+.img1 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg");
+background-size: cover;
+width : 130px;
+}
+
+.img1 p {
+
+margin-top: 93px;
+margin-left: 10px;
+
+}
+   
+.img2 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg");
+background-size: cover;
+width: 140px;
+
+}
+   
+.img2 p {
+
+margin-top: 90px;
+margin-left: 10px;
+
+}
+
+
+.img3 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg");
+background-size: cover;
+width: 120px;
+
+}
+    
+.img3 p {
+
+margin-top: 95px;
+
+}
+   
+
+
+.img4 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg");
+background-size: cover;
+width: 130px;
+
+
+}
+    
+.img4 p {
+
+margin-top: 95px;
+
+}
+
+
+
+
+.img01 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_home_B08RCCP3HV_01.23._SY232_CB619238939_.jpg");
+background-size: cover;
+width : 130px;
+}
+
+.img01 p {
+
+margin-top: 104px;
+margin-left: 10px;
+
+}
+   
+.img02 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_LP-HP_B08MYX5Q2W_01.23._SY232_CB619238939_.jpg");
+background-size: cover;
+width: 140px;
+
+}
+   
+.img02 p {
+
+margin-top: 104px;
+margin-left: 10px;
+
+}
+
+
+.img03 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_kitchen_B0126LMDFK_01.23._SY232_CB619238939_.jpg");
+background-size: cover;
+width: 120px;
+margin-top: 1.2rem;
+}
+    
+.img03 p {
+
+margin-top: 109px;
+
+}
+   
+
+
+.img04 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_health-beauty_B07662GN57_01.23._SY232_CB619238939_.jpg");
+background-size: cover;
+width: 130px;
+
+margin-top: 1.2rem;
+}
+    
+.img04 p {
+
+margin-top: 109px;
+
+}
+
+
+
+
+
+.img001 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_2x._SY232_CB555960040_.jpg38939_.jpg");
+background-size: cover;
+width : 130px;
+}
+
+.img001 p {
+
+margin-top: 104px;
+margin-left: 10px;
+font-size: 0.9rem;
+
+}
+
+
+
+.img002 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_2x._SY232_CB555960040_.jpg238939_.jpg");
+background-size: cover;
+width: 140px;
+
+}
+   
+.img002 p {
+font-size: 0.8rem;
+margin-top: 104px;
+margin-left: 10px;
+
+}
+.img003 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_2x._SY232_CB555960040_.jpg232_CB619238939_.jpg");
+background-size: cover;
+width: 120px;
+margin-top: 1.2rem;
+}
+    
+.img003 p {
+
+margin-top: 109px;
+
+}
+
+
+.img004 {
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_2x._SY232_CB555960040_.jpg32_CB619238939_.jpg");
+background-size: cover;
+width: 130px;
+
+margin-top: 1.2rem;
+}
+    
+.img004 p {
+
+margin-top: 109px;
+
+}
+  .imgsingle{
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpgpg8005_.jpg4_318_HP_NewArrivals_QuadCard_D_04_2x._SY232_CB555960040_.jpg32_CB619238939_.jpg");
+background-size: cover;
+width: 90%;
+height: 70%;
+margin-top: 1.2rem;
+margin: auto;
+}
+    .h2 {
+
+margin-bottom: 10px;
+
+}
+.box-imgsingle  p {
+
+margin-top: 109px;
+
+}
+#opt {
+margin-top: 2rem;
+}
+
+.imgsingle1{
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg8005_.jpgpg8005_.jpg4_318_HP_NewArrivals_QuadCard_D_04_2x._SY232_CB555960040_.jpg32_CB619238939_.jpg");
+background-size: cover;
+width: 90%;
+height: 70%;
+margin-top: 1.2rem;
+margin: auto;
+}
+    
+.box-imgsingle1  p {
+
+margin-top: 109px;
+
+}
+#opt1 {
+margin-top: 2rem;
+}
+   
+.img11 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: -30px;
+}
+
+.img11 p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+
+
+
+
+.img12 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_Desktops._SY232_CB558654384_.jpg58654384_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: -30px;
+}
+
+.img12 p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+.img13 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_Hard_Drives._SY232_CB558654384_.jpgB558654384_.jpg58654384_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: 30px;
+}
+
+.img13 p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+.img14 {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_Accessories._SY232_CB558654384_.jpg2_CB558654384_.jpgB558654384_.jpg58654384_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: 30px;
+}
+
+.img14 p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+
+
+
+
+.imgone {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_NW_GamingWeek_PC_v2_2x._SY232_CB558844445_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: -30px;
+}
+
+.imgone p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+
+
+
+
+.imgtwo{
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_NE_GamingWeek_Xbox_v2_2x._SY232_CB558844445_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: -30px;
+}
+
+.imgtwo p {
+
+margin-top: 109px;
+margin-left: 10px;
+
+}
+
+
+.imgthree {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_SW_GamingWeek_Sony_v2_2x._SY232_CB558844445_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: 30px;
+}
+
+.imgthree p {
+
+margin-top: 113px;
+margin-left: 10px;
+
+}
+
+
+
+.imgfour {
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_SE_GamingWeek_Nintendo_v2_1x._SY116_CB558844445_.jpg");
+background-size: cover;
+width : 130px;
+margin-top: 30px;
+}
+
+.imgfour p {
+
+margin-top: 113px;
+margin-left: 10px;
+
+}
+
+.imgsingleone{
+
+background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BTS24/Fuji_BTS_Dash_card_1x._SY304_CB583656338_.jpg");
+background-size: cover;
+width: 95%;
+height: 70%;
+margin-top: 1.2rem;
+margin: auto;
+
+}
+    
+.box-imgsingleone  p {
+
+margin-top: 109px;
+
+}
+
+
+
+.imgsingletwo{
+
+background-image: url("https://m.media-amazon.com/images/I/51pcU3wRmRL._AC_UY436_FMwebp_QL65_.jpg");
+background-size: cover;
+width: 90%;
+height: 70%;
+margin-top: 1.2rem;
+margin: auto;
+}
+    
+.box-imgsingletwo p {
+
+margin-top: 109px;
+
+}
+footer {
+margin-top: 1rem;
+
+
+
+}
+.footer-1 {
+  background-color: #37475a;  
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.footer-2 {
+    background-color: #222f3d;
+    display: flex;
+height: 500px;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.5rem;
+    
+}
+
+ul a {
+    display: block;
+color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  margin-top: 20px;
+}
+ul {
+    margin-top: 35px;
+}
+.bold {
+text-decoration: underline;
+
+font-weight: 600;
+}
+   
+.footer-3 {
+    height: 140px;
+    display: flex;
+justify-content: center;
+align-items: center;
+    background-color: #222f3d ;
+}
+
+
+.footer-img {
+margin-top: 60px;
+    background-image: url("  https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png ");
+    width: 150px;
+    height: 100px;
+    background-size: contain;
+background-repeat:no-repeat ;
+
+}
+
+.footer-4 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color:black ;
+    justify-content: center;
+color: white;
+  flex-direction: column;
+}
+.footer-4 p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar" id="nav">
+
+        <div class="nav-logo">
+
+          <div class="logo border">
+
+          </div>
+
+        </div>
+
+        <div class="nav-add border">
+          <p class="add-f">Delevir to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-s">India</p>
+          </div>
+        </div>
+
+
+
+        <div class="nav-search">
+          <select class="search-sel">
+            <option>All</option>
+          </select>
+          <input placeholder="Search Amazon " class="search-inp">
+          <div class="search-icon">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="nav-signin border">
+
+          <p>
+            <span class="nav-f">Hello, Sign In</span>
+          </p>
+          <p class="nav-s">Account & Lists</p>
+        </div>
+
+
+
+        <div class="nav-returns border">
+
+          <p>
+            <span class="nav-f">Returns</span>
+          </p>
+          <p class="nav-s">& Orders</p>
+        </div>
+
+
+        <div class="nav-cart border">
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <!-- <p class="cart-p">Cart</p>-->
+        </div>
+
+
+
+      </div>
+      <div class="nav-panel">
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i> All
+        </div>
+
+        <div class="panel-ops ">
+          <p class="border">Today's Daels</p>
+          <p class="border">Customer Service</p>
+          <p class="border">Registry</p>
+          <p class="border">Gift Cards</p>
+          <p class="border">Sell</p>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="hero" id="hero">
+
+      <p class="hero-para">You are on amazon.com. You can also shop on Amazon India for millions of
+        products with fast local delivery. <a href="#">Click here to go to amazon.in</a>
+      </p>
+
+
+    </div>
+
+    <div class="main">
+
+      <div class="box">
+
+        <h2>Gaming Accessories</h2>
+        <div class="box-imgs">
+          <div class="box-img img1">
+            <p>headsets</p>
+          </div>
+
+          <div class="box-img img2">
+            <p>Keyboards</p>
+          </div>
+
+          <div class="box-img img3">
+            <p>Computer Mouces</p>
+          </div>
+          <div class="box-img img4">
+            <p>Chairs</p>
+          </div>
+
+
+        </div>
+        <p class="link">See Moree..</p>
+      </div>
+      <div class="box">
+        <h2>Refresh Your Space</h2>
+        <div class="box-imgs">
+          <div class="box-img img01">
+            <p>Home</p>
+          </div>
+
+          <div class="box-img img02">
+            <p>Dining</p>
+          </div>
+
+          <div class="box-img img03">
+            <p>Kitchen</p>
+          </div>
+          <div class="box-img img04">
+            <p>Health & Beauty</p>
+          </div>
+
+
+        </div>
+        <p class="link sm" id="sm">See Moree..</p>
+      </div>
+
+      <div class=" box">
+        <h2>New home arrivals </h2>
+        <div class="box-imgs">
+          <div class="box-img img001">
+            <p>Kitchen & Dining</p>
+          </div>
+
+          <div class="box-img img002">
+            <p>Home Improvement</p>
+          </div>
+
+          <div class="box-img img003">
+            <p>Decor</p>
+          </div>
+          <div class="box-img img004">
+            <p>Bedding & Bath</p>
+          </div>
+        </div>
+        <p class="link sm" id="sm1">See Moree..</p>
+      </div>
+
+      <div class=" box">
+
+        <h2 class="h2">Toys Under $25</h2>
+        <div class="imgsingle">
+
+
+
+        </div>
+        <p class="link opt" id="opt">See Moree..</p>
+      </div>
+      <div class=" box">
+
+        <h2>Pcs & Accessories</h2>
+        <div class="box-imgs">
+          <div class="box-img img11">
+            <p>Laptops</p>
+          </div>
+
+          <div class="box-img img12">
+            <p>Desktops</p>
+          </div>
+
+          <div class="box-img img13">
+            <p>Hard Drives</p>
+          </div>
+          <div class="box-img img14">
+            <p>Pc Accessories</p>
+          </div>
+
+
+        </div>
+        <p class="link">See Moree..</p>
+      </div>
+
+      <div class="box">
+
+        <h2 class="h2">Deals In Pcs</h2>
+        <div class="imgsingle1">
+
+
+
+        </div>
+        <p class="link opt" id="opt1">See Moree..</p>
+      </div>
+      <div class=" box">
+
+        <h2>Level Up Your Gaming</h2>
+        <div class="box-imgs">
+          <div class="box-img imgone">
+            <p>Pc Gaming</p>
+          </div>
+
+          <div class="box-img imgtwo">
+            <p>Xbox</p>
+          </div>
+
+          <div class="box-img imgthree">
+            <p>Play Station</p>
+          </div>
+          <div class="box-img imgfour">
+            <p>Nintendo Switch</p>
+          </div>
+
+
+        </div>
+        <p class="link">See Moree..</p>
+      </div>
+      <div class="box">
+
+        <h2 class="h2">Bags For Kidds</h2>
+        <div class="imgsingleone">
+
+
+
+        </div>
+        <p class="link opt" id="opt1">See Moree..</p>
+      </div>
+
+      <div class="box">
+
+        <h2 class="h2">Electronics</h2>
+        <div class="imgsingletwo">
+
+
+
+        </div>
+        <p class="link opt" id="opt1">See Moree..</p>
+      </div>
+
+
+    </div>
+
+    <footer>
+      <div class="footer-1">
+        <a href="#nav">Back To Top</a>
+      </div>
+      <div class="footer-2">
+
+        <ul>
+          <a href="#" class="bold">Get To Know Us</a>
+          <a>Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">About Amazon</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Amazon Devices</a>
+        </ul>
+
+        <ul>
+          <a href="#" class="bold">Amazon Science</a>
+          <a href="#">Make Money with Us</a>
+          <a href="#">Sell products on Amazon</a>
+          <a href="#">Sell on Amazon Business</a>
+          <a href="#">Sell apps on Amazon</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Self-Publish with Us</a>
+          <a href="#">Host an Amazon Hub</a>
+          <a href="#">›See More Make Money with Us</a>
+        </ul>
+
+        <ul>
+          <a href="#" class="bold">Amazon Payment Products</a>
+          <a href="#">Amazon Business Card</a>
+          <a href="#">Shop with Points</a>
+          <a href="#">Reload Your Balance</a>
+          <a href="#">Amazon Currency Converter</a>
+        </ul>
+
+        <ul>
+          <a href="#" class="bold">Let Us Help You</a>
+          <a href="#">Amazon and COVID-19</a>
+          <a href="#">Your Account</a>
+          <a href="#">Your Orders</a>
+          <a href="#">Shipping Rates & Policies</a>
+          <a href="#">Returns & Replacements</a>
+          <a href="#">Manage Your Content and Devices</a>
+          <a href="#">Help</a>
+        </ul>
+
+
+
+
+
+      </div>
+
+      <div class="footer-3">
+        <div class="footer-img">
+
+        </div>
+      </div>
+      <div class="footer-4">
+
+        <p>Conditions of Use Privacy Notice Consumer Health Data Privacy Disclosure
+          Your Ads Privacy Choices</p>
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates
+        </p>
+
+      </div>
+    </footer>
+  </body>
+
+</html>
+<!--
+Visual Code Mobile
+Developed By Manish Nirmal
+App Available on Play Store :-
+https://play.google.com/store/apps/details?id=lk.visual.code.mobile
+YouTube :-
+https://youtube.com/ManishNirmal
+-->
